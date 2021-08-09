@@ -1,0 +1,229 @@
+/*RESET STYLES*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*GLOBAL STYLES*/
+
+html {
+    font-family: "Helvetica";
+    font-size: 26px;
+    line-height: normal;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 26px;
+    color: grey;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*NAVIGATION BAR STYLES*/
+
+.header {
+    display: flex;
+    position: fixed;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: black;
+    width: 100%;
+    height: 69px;
+    z-index: 2;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -0.35em;
+}
+
+.tealogo img {
+    display: flex;
+    position: relative;
+    padding-top: 9px;
+    padding-left: 10px;
+    height: 50px;
+    width: 167px;
+}
+
+
+.headerlist {
+    display: flex;
+    width: 450px;
+    height: 69px;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 9px;
+    padding-right: 10px;
+    text-decoration: underline;
+    font-weight: lighter;
+    padding-right: 1.5rem;
+}
+
+
+/*MISSION SECTION STYLES*/
+
+.missioncontainer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1200px 700px;
+    height: 700px;
+    width: 100%;
+}
+
+.missiontext {
+    background: black;
+    display: flex;
+    flex-flow: column;
+    padding: 5px 5px;
+    position: absolute;
+    width: 1200px;
+    height: 140px;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+/*FEATURED TEAS SECTION STYLES*/
+
+.featured-container {
+    width: 1000px;
+    margin: 150px auto 90px auto;
+    position: relative;
+}
+
+.featured-statement {
+    text-align: center;
+    margin: 20px;
+}
+
+.featured-statement h4 {
+    margin: 20px 0;
+}
+
+.flexbox-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    display: block;
+}
+
+.img-container img{
+    height: 200px;
+    width: 300px;
+    flex-basis: auto;
+    margin: 10px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/*LOCATIONS SECTION STYLES*/
+
+.locations {
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/img-locations-background.jpg);
+    background-position-y: 10em; 
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1200px 800px;
+    height: 800px;
+    width: 100%;
+    top: 0px;
+}
+
+.locationstext {
+    display: flex;
+    position: relative;
+    top: 6em;  
+}
+
+.locationscontainer {
+    display: flex;
+    position: relative;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 1000px;
+    top: 8em;
+}
+
+.downtowncontainer {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.baysidecontainer {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.oakdalecontainer {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*CONTACT SECTION STYLES*/
+
+.teacozycontact {
+    background: black;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    top: 19em;
+}
+
+/*FOOTER STYLES*/
+
+.footer {
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 1000px;
+    top: 25em;
+    left: 20px;
+}
